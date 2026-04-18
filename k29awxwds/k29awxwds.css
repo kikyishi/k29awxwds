@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("/k29awxwds/themes/greenaccent.css");
+@import url("/k29awxwds/core/container.css");
+@import url("/k29awxwds/core/content.css");
+@import url("/k29awxwds/core/rightbar.css");
+@import url("/k29awxwds/core/widget.css");
+@import url("/k29awxwds/effects/cursorcircle.css");
+@import url("/k29awxwds/effects/siteload.css");
+@import url("/k29awxwds/modules/cards.css");
+@import url("/k29awxwds/modules/profilebox.css");
+@import url("/k29awxwds/modules/carousel.css");
+@import url("/k29awxwds/modules/billboard.css");
+@import url("/k29awxwds/mobile/mobile.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #14151b;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to bottom right,
+      rgb(0, 0, 0) 0%,
+      rgba(255, 255, 255, 0) 70%,
+      rgb(0, 0, 0) 100%
+    ),
+    url("/k29awxwds/assets/gif/bg.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 16px;
+  color: var(--text-color);
+  font-family: var(--primary-font);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image:
+    linear-gradient(
+      to bottom right,
+      rgb(0, 0, 0) 0%,
+      rgba(255, 255, 255, 0) 100%,
+      rgb(0, 0, 0) 100%
+    ),
+    url("/k29awxwds/assets/img/header.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-size: 60px;
+  font-weight: 1000;
+  color: var(--accent);
+}
+
+h2 {
+  font-family: var(--heading-font);
+  padding: 10px 0px;
+}
+
+h3 {
+  font-family: var(--heading-font);
+  padding: 10px 0px;
+}
+
+h4 {
+  font-family: var(--heading-font);
+  padding: 10px 0px;
+}
+
+h5 {
+  font-family: var(--heading-font);
+  padding: 10px 0px;
+}
+
+h6 {
+  font-family: var(--heading-font);
+  padding: 10px 0px;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  font-size: 18px;
+  color: var(--accent);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--accent-light-highlight);
+}
+
+a.active {
+  color: var(--text-color);
+}
+
+a.disabled {
+  color: #645b5b;
+}
+
+button {
+  opacity: 0.8;
+  background: none;
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 500;
+  border: 1.5px solid var(--text-color);
+  padding: 10px 15px;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: var(--accent-dark-highlight);
+  background: white;
+  cursor: pointer;
+  border: 1.5px solid white;
+}
+
+button.active {
+  background: white;
+  border: 1.5px solid white;
+  color: var(--accent-dark-highlight);
+  box-shadow: 0 0 30px var(--accent);
+}
+
+label {
+  color: var(--minor-text-color);
+}
+
+input[type="text"] {
+  background: var(--accent);
+  color: var(--accent-dark-highlight);
+  border: 1.5px solid var(--accent-border);
+  padding: 10px;
+}
+
+input[type="text"]::placeholder {
+  font-family: var(--primary-font);
+  color: var(--accent-text-color);
+}
+
+input[type="text"]:focus {
+  border: 1px solid var(--accent-border);
+  outline: 0;
+}
+
+select {
+  background: var(--accent);
+  color: var(--accent-text-color);
+  font-family: var(--primary-font);
+  border: none;
+  border: 1.5px solid var(--accent-border);
+  padding: 10px;
+}
+
+select:focus {
+  border: 1px solid var(--accent-border);
+  outline: 0;
+}
+
+option {
+  color: var(--accent-text-color);
+  padding: 8px;
+}
+
+option:hover {
+  background: var(--accent-light-highlight);
+}
