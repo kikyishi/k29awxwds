@@ -1,2 +1,5 @@
 # Ignore .obsidian folder
 .obsidian/
+
+# Ignore the changelog
+CHANGELOG.md

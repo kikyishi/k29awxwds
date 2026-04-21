@@ -1,6 +1,6 @@
 **k29awx*wds*** | A personal web design system made by me for myself. Specifically engineered with an indie yet modern aesthetic.
 
-# Quick Start
+## Quick Start
 
 ```
 <!doctype html>
@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="/k29awxwds/k29awxwds.css" />
 
-<title>[Title]</title>
+<title>Title</title>
 
 </head>
 
@@ -53,7 +53,19 @@
 
 <footer class="footer">
 
-<div class="widget"></div>
+<div class="widget">
+
+<p>
+
+Made using
+
+<a href="https://github.com/kikyishi/k29awxwds">k29awxwds</a> |
+
+Credits: <a href="https://www.tumblr.com/mini-moss">minimoss</a>
+
+</p>
+
+</div>
 
 </footer>
 
@@ -82,10 +94,13 @@ crossorigin="anonymous"
 </html>
 ```
 
-# Documentation
+## Documentation
 
-- [Design Tokens](./docs/Design Tokens.md) (Colors, Typography)
+- [Design Tokens](https://github.com/kikyishi/k29awxwds/blob/main/docs/Design%20Tokens.md) (Colors, Typography)
 
-# Upcoming docs
+## Upcoming Doc Updates
 
-- [ ] Documenting modules
+- [ ] Document modules
+
+## Credits
+- /k29awxwds/assets/gif/bg.gif - [https://www.tumblr.com/mini-moss](https://www.tumblr.com/mini-moss)
