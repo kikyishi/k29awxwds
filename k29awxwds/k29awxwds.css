@@ -55,34 +55,37 @@ header {
 
 h1 {
   font-family: var(--heading-font);
-  font-size: 60px;
-  font-weight: 1000;
   color: var(--accent);
 }
 
 h2 {
   font-family: var(--heading-font);
   padding: 10px 0px;
+  color: var(--accent);
 }
 
 h3 {
   font-family: var(--heading-font);
   padding: 10px 0px;
+  color: var(--accent);
 }
 
 h4 {
   font-family: var(--heading-font);
   padding: 10px 0px;
+  color: var(--accent);
 }
 
 h5 {
   font-family: var(--heading-font);
   padding: 10px 0px;
+  color: var(--accent);
 }
 
 h6 {
   font-family: var(--heading-font);
   padding: 10px 0px;
+  color: var(--accent);
 }
 
 img {
