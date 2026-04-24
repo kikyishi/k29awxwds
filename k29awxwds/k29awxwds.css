@@ -97,7 +97,6 @@ ul {
 }
 
 a {
-  font-size: 18px;
   color: var(--accent);
   font-weight: bold;
   text-decoration: none;
@@ -185,4 +184,8 @@ option {
 
 option:hover {
   background: var(--accent-light-highlight);
+}
+
+p.grey {
+  color: var(--low-priority-text-color);
 }
