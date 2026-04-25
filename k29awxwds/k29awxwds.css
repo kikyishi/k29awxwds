@@ -187,5 +187,5 @@ option:hover {
 }
 
 p.grey {
-  color: var(--low-priority-text-color);
+  color: #adadad;
 }
